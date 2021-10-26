@@ -73,13 +73,13 @@
 		// You can update them only by yourself using tutorial in the link
 		"Addresses"
 		{
-			"m_pParticleSystemDictionary"
+			"CParticleSystemMgr::m_pParticleSystemDictionary"
 			{
 				"signature"	"CParticleSystemDefinition::ParseChildren"
 				"linux"
 				{
 					"read"	"375"
-					"read"	"0"
+					"read"	"0" // g_pParticleSystemMgr
 					"read"	"140"
 				}
 				"windows"
